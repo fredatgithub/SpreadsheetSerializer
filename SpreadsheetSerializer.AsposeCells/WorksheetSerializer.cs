@@ -10,7 +10,7 @@ namespace SpreadsheetSerializer.AsposeCells
         public WorksheetSerializer(DataTable dataTable, string worksheetName)
         {
             this.dataTable = dataTable;
-            this.WorksheetName = worksheetName;
+            WorksheetName = worksheetName;
         }
 
         public Aspose.Cells.Worksheet CreateSheet(Aspose.Cells.Workbook workbook)

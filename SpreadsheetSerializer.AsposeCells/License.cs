@@ -6,7 +6,8 @@
 
     public static void SetLicense(string filePath)
     {
-      AsposeLicense.SetLicense(filePath);
+      //AsposeLicense.SetLicense(filePath);
+      // use trial license version instead
     }
   }
 }
