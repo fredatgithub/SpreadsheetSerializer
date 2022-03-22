@@ -10,7 +10,13 @@ namespace ConsoleAppDeserializeExample
   {
     static void Main()
     {
+      Action<string> Display = Console.WriteLine;
+      string excelFileName = "book1.xlsx";
+      Display($"Serialize the {excelFileName} workbook");
 
+
+      Display("Press any key to exit:");
+      Console.ReadKey();
     }
   }
 }
